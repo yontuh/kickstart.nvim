@@ -967,7 +967,7 @@ require('lazy').setup({
   -- Toggle zoom for Mini.nvim | mini.misc | zoom()
   vim.keymap.set('n', '<leader>z', function()
     require('mini.misc').zoom()
-  end, { desc = 'Zoom current window' }),
+  end, { desc = '[Z]oom current window' }),
   --
   --
   -- vim.keymap.set('n', '<C-w>z', ':lua MiniMisc.zoom()<CR>', { desc = 'Toggle zoom' }),
