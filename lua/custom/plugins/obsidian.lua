@@ -26,5 +26,8 @@ return {
         path = '~/Documents/sweep',
       },
     },
+    ui = {
+      enable = false,
+    },
   },
 }
